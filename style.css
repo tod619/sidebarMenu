@@ -24,3 +24,16 @@ font-family: 'Slabo 27px', serif; */
 html {
     font-size: 62.5%;
 }
+
+.sidebar {
+    width: 15vw;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    position: fixed;
+}
+
+.main-section {
+    width: 85vw;
+    position: relative;
+    left: 15vw;
+}
