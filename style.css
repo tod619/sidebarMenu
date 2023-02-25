@@ -30,6 +30,36 @@ html {
     height: 100vh;
     background-color: var(--main-bg-color);
     position: fixed;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+}
+
+.admin-img {
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+}
+
+.card-subtitle {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
 }
 
 .main-section {
