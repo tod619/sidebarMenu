@@ -37,3 +37,10 @@ html {
     position: relative;
     left: 15vw;
 }
+
+.header {
+    width: inherit;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(images/bg.png) center no-repeat;
+    background-size: cover;
+}
