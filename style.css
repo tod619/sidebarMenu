@@ -25,6 +25,35 @@ html {
     font-size: 62.5%;
 }
 
+.hamburger-menu {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color: var(--secondary-color);
+    position: absolute;
+}
+
+.line-1 {
+    top: 1.2rem;
+}
+
+.line-2 {
+    top: 1.8rem;
+}
+
+.line-3 {
+    top: 2.4rem;
+}
+
 .sidebar {
     width: 15vw;
     height: 100vh;
