@@ -133,6 +133,35 @@ html {
     flex-grow: 1;
 }
 
+.sub-nav-list {
+    width: 90%;
+    margin-left: auto;
+}
+
+.sub-nav-item {
+    margin: 0.5rem 0;
+}
+
+.sub-nav-link {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color 0.2s;
+}
+
+.sub-nav-link:hover {
+    color: var(--hover-text-color);
+}
+
+.sub-nav-link i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    transition: color 0.2s;
+}
+
+.sub-nav-link:hover i {
+    color: var(--active-icon-color);
+}
+
 .main-section {
     width: 85vw;
     position: relative;
