@@ -91,6 +91,48 @@ html {
     color: var(--secondary-color);
 }
 
+.nav-list {
+    margin-top: 3rem;
+}
+
+.nav-item {
+    margin: 2rem 0;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.nav-link i:first-child {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    transition: color 0.2s;
+}
+
+.nav-link:hover i:first-child {
+    color: var(--active-icon-color);
+}
+
+.nav-link i:last-child {
+    margin-right: 2.5rem;
+    font-size: 1.6rem;
+}
+
+.nav-link-text {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    flex-grow: 1;
+}
+
 .main-section {
     width: 85vw;
     position: relative;
