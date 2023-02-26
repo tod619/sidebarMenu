@@ -33,6 +33,7 @@ html {
     top: 0;
     padding: 0.5rem;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .line {
@@ -40,6 +41,8 @@ html {
     height: 0.3rem;
     background-color: var(--secondary-color);
     position: absolute;
+    transform-origin: left;
+    transition: transform 0.3s, top 0.3s 0.3s, opacity 0.2s;
 }
 
 .line-1 {
@@ -52,6 +55,22 @@ html {
 
 .line-3 {
     top: 2.4rem;
+}
+
+.change .line-1 {
+    top: 2.4rem;
+    transform: rotate(-40deg) translateY(0.3rem);
+    transition: top 0.3s, transform 0.3s 0.3s;
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    top: 1.2rem;
+    transform: rotate(40deg) translateY(-0.3rem);
+    transition: top 0.3s, transform 0.3s 0.3s;
 }
 
 .sidebar {
