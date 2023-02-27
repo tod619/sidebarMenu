@@ -28,8 +28,10 @@ html {
 .hamburger-menu {
     width: 3.5rem;
     height: 3.5rem;
+    background-color: var(--main-bg-color);
+    border-bottom-right-radius: 1rem;
     position: absolute;
-    right: 0;
+    right: -3.5rem;
     top: 0;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -80,6 +82,8 @@ html {
     position: fixed;
     padding: 1.5rem 1rem;
     box-sizing: border-box;
+    left: -15vw;
+    z-index: 100;
 }
 
 .card {
@@ -264,9 +268,9 @@ html {
 }
 
 .main-section {
-    width: 85vw;
+    width: 100vw;
     position: relative;
-    left: 15vw;
+    left: 0;
 }
 
 .header {
