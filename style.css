@@ -191,6 +191,11 @@ html {
 .nav-link i:last-child {
     margin-right: 2.5rem;
     font-size: 1.6rem;
+    transition: transform 0.5s;
+}
+
+.change > i:last-child {
+    transform: rotate(90deg);
 }
 
 .nav-link-text {
