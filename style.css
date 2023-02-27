@@ -184,6 +184,10 @@ html {
     color: var(--active-icon-color);
 }
 
+.change.nav-link i:first-child {
+    color: var(--active-icon-color);
+}
+
 .nav-link i:last-child {
     margin-right: 2.5rem;
     font-size: 1.6rem;
@@ -198,6 +202,13 @@ html {
 .sub-nav-list {
     width: 90%;
     margin-left: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.change.sub-nav-list {
+    max-height: 10rem;
 }
 
 .sub-nav-item {
